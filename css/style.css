@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1000px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,11 +18,36 @@ body {
   font-family: Roboto Condensed;
 }
 
+.menu {
+  width: 100%;
+  height: 40px;
+  background-color: #414143;
+  -webkit-box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.menunav {
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+}
+
 .numberlink {
   display: block;
   font-size: 20px;
   color: #000;
   text-align: right;
+  text-decoration: none;
+  color: #414143;
 }
 
 .numbertext {
@@ -30,6 +55,7 @@ body {
   text-align: right;
   font-size: 14px;
   color: #939598;
+  padding-top: 3px;
 }
 
 .contact-number1 {
@@ -48,5 +74,25 @@ body {
   margin-left: 60px;
   margin-top: 50px;
   width: 200px;
+}
+
+.vertical-line {
+  color: #939598;
+  font-size: 21px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-button-text {
+  color: #ebebeb;
 }
 /*# sourceMappingURL=style.css.map */
