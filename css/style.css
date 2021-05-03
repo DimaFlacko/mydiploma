@@ -41,6 +41,47 @@ body {
   height: 40px;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  background-color: #e2e2e2;
+}
+
+.footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  height: 62px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #464646;
+  -webkit-box-shadow: 0 -3px 4px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 -3px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer__text {
+  width: 1000px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #939598;
+}
+
 .numberlink {
   display: block;
   font-size: 20px;
@@ -84,15 +125,18 @@ body {
 .menu-link {
   text-decoration: none;
   color: #ebebeb;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  padding: 10px 15px 0 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.menu-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.menu-button-text {
-  color: #ebebeb;
+.menu-link:hover {
+  background: #fff;
+  color: #414143;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 /*# sourceMappingURL=style.css.map */
