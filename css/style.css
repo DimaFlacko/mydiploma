@@ -41,6 +41,45 @@ body {
   height: 40px;
 }
 
+.hiden-menu {
+  width: 185px;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 460px;
+  -webkit-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.19);
+  display: none;
+}
+
+.hiden-menu__list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.hiden-menu__link {
+  text-decoration: none;
+  color: #414143;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.menu-list-element {
+  padding-top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 10px;
+  border-top: 1px solid #b9b8b8;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.menu-list-element:hover {
+  background: #c0c0c0;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,6 +173,24 @@ body {
 }
 
 .menu-link:hover {
+  background: #fff;
+  color: #414143;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.menu-link-main {
+  text-decoration: none;
+  color: #ebebeb;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  padding: 10px 15px 0 15px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.menu-link-main:hover {
   background: #fff;
   color: #414143;
   -webkit-transition: all 0.2s ease;
