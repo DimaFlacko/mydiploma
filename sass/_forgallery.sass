@@ -1,0 +1,56 @@
+.gallery-container
+    max-width: 800px
+    width: 100%
+    height: 400px
+    position: relative
+    margin-top: 50px
+
+.gallery
+    width: 100%
+    height: 100%
+    display: none
+
+.gallery.active
+    display: block
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.19)  
+    
+.gallery-img
+    width: 100%
+    height: 100%
+
+.gallery-block
+    width: 1000px
+    height: 100vh
+    background-color: #fff
+    margin: auto
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.gallery-row
+    display: flex
+    width: 800px
+    justify-content: space-between
+    margin-top: 10px
+
+.gallery-img-mini
+    cursor: pointer
+
+.gallery-img-mini:hover
+    opacity: 0.8
+
+.gallery-img-mini.active
+    border: 4px solid rgba(145, 134, 106, 1)
+    opacity: 0.9
+
+.gallery-text
+    width: 800px
+    margin-top: 30px
+
+.gallery-info
+    font-size: 16px
+    color: #414143
+    display: none
+
+.gallery-info.active
+    display: block
